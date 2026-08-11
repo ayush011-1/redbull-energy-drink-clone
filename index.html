@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#001e62" />
+    <title>Red Bull Energy Drink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./extras.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Red Bull home"><span class="brand-bulls">↔</span><span>Red Bull</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#energy">Energy Drinks</a><a href="#formula">Ingredients</a><a href="#world">World of Red Bull</a>
+      </nav>
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Open search">⌕</button>
+        <button class="menu-btn" aria-expanded="false" aria-controls="mobile-nav"><i></i><i></i><i></i><span>Menu</span></button>
+      </div>
+    </header>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="#energy">Energy Drinks</a><a href="#formula">Ingredients</a><a href="#world">World of Red Bull</a>
+    </nav>
+    <div class="search-panel" aria-hidden="true">
+      <button class="search-close" aria-label="Close search">×</button>
+      <form class="search-form" action="https://www.google.com/search" method="get" target="_blank">
+        <label for="site-search">Search the Red Bull world</label>
+        <div><input id="site-search" name="q" placeholder="What are you looking for?" autocomplete="off" /><input type="hidden" name="as_sitesearch" value="redbull.com" /><button type="submit">Search ↗</button></div>
+      </form>
+    </div>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-pin">
+          <div class="hero-title-block">
+            <p class="eyebrow">The original Red Bull</p>
+            <h1 id="hero-title">Red Bull<br />Energy Drink</h1>
+            <span class="veg">●</span>
+          </div>
+          <div class="hero-copy">
+            <p>Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.</p>
+            <a class="buy-pill" href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy now <span>⌄</span></a>
+          </div>
+          <div class="hero-vital">
+            <h2>Vitalizes body<br />and mind<sup>®</sup>.</h2>
+            <p>The original Red Bull Energy Drink. Giving wiiings to people and ideas since 1987.</p>
+            <a class="buy-pill" href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy now <span>⌄</span></a>
+          </div>
+          <div class="can-stage" aria-label="A chilled can of Red Bull Energy Drink">
+            <img class="hero-can" src="https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/ea6717e057/in_ed_250ml_energy-drink_country_rgb__cold_closed_front_com_full.png/m/686x0" alt="Red Bull Energy Drink can" />
+          </div>
+          <div class="drag-hint"><span></span>Drag down to explore</div>
+        </div>
+      </section>
+
+      <section class="manifesto section-pad" id="energy">
+        <p class="eyebrow blue reveal">Red Bull Energy Drink</p>
+        <h2 class="display reveal">Gives you wiiings.</h2>
+        <div class="manifesto-grid">
+          <p class="lead reveal">The original Red Bull Energy Drink. Giving wiiings to people and ideas since 1987.</p>
+          <a class="button button-outline reveal" href="#formula">Discover the formula <span>↓</span></a>
+        </div>
+      </section>
+
+      <section class="formula" id="formula">
+        <div class="formula-head section-pad">
+          <p class="eyebrow reveal">The formula that gives you wiiings</p>
+          <h2 class="display light reveal">Ingredients</h2>
+          <p class="formula-intro reveal">Red Bull Energy Drink’s unique formula is made with high-quality ingredients.</p>
+          <div class="sizes reveal"><span>Available sizes:</span><button class="size active">250 ml</button><button class="size">355 ml</button></div>
+        </div>
+        <div class="ingredient-list" data-accordion>
+          <article class="ingredient open reveal"><button class="ingredient-toggle"><span>01</span><strong>Caffeine</strong><b>−</b></button><div class="ingredient-body"><p>Each 250 ml can contains 75 mg of caffeine. Caffeine helps to improve concentration and increase alertness.</p></div></article>
+          <article class="ingredient reveal"><button class="ingredient-toggle"><span>02</span><strong>Taurine</strong><b>+</b></button><div class="ingredient-body"><p>Red Bull Energy Drink contains 1000 mg taurine per serving. It is one of the most abundant amino acids in the heart and muscles.</p></div></article>
+          <article class="ingredient reveal"><button class="ingredient-toggle"><span>03</span><strong>B-group vitamins</strong><b>+</b></button><div class="ingredient-body"><p>B-group vitamins contribute to the reduction of tiredness and fatigue and support normal energy-yielding metabolism.</p></div></article>
+          <article class="ingredient reveal"><button class="ingredient-toggle"><span>04</span><strong>Sugars</strong><b>+</b></button><div class="ingredient-body"><p>One serving – a 250 ml can – contains 27 g of sugars.</p></div></article>
+          <article class="ingredient reveal"><button class="ingredient-toggle"><span>05</span><strong>Water</strong><b>+</b></button><div class="ingredient-body"><p>Water is the main ingredient of Red Bull Energy Drink. Dedication to its quality contributes to the iconic taste in every sip.</p></div></article>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <div class="quote-image"><img src="https://img.redbull.com/images/c_fill,f_auto,q_auto,w_2560/redbullcom/2020/4/18/ivbout560dt6462b1ccg/kl-rahul-indian-cricket-batsman-opener-red-bull-athlete" alt="KL Rahul" /></div>
+        <div class="quote-panel">
+          <p class="eyebrow">Cricket</p>
+          <blockquote>“During a match I have a Red Bull shortly before going out to bat or field.”</blockquote>
+          <p class="quote-name">KL Rahul</p>
+          <a href="#world" class="text-link">Learn more <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="products section-pad" id="products">
+        <div class="split-heading"><div><p class="eyebrow blue">Red Bull Energy Drinks</p><h2 class="display">Find your<br />wiiings.</h2></div><p>Discover the full range of Red Bull Energy Drinks.</p></div>
+        <div class="product-rail" id="productRail">
+          <article class="product-card blue-card"><a class="card-link" href="https://www.zeptonow.com/" target="_blank" rel="noopener" aria-label="Buy Red Bull Energy Drink on Zepto"></a><div class="product-bg"></div><img src="https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/ea6717e057/in_ed_250ml_energy-drink_country_rgb__cold_closed_front_com_full.png/m/686x0" alt="Original Red Bull can" /><div><h3>Red Bull<br />Energy Drink</h3><a href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy on Zepto <span>↗</span></a></div></article>
+          <article class="product-card silver-card"><a class="card-link" href="https://www.zeptonow.com/" target="_blank" rel="noopener" aria-label="Buy Red Bull Sugarfree on Zepto"></a><div class="can-mock silver">Red Bull<br /><em>SUGARFREE</em></div><div><h3>Red Bull<br />Sugarfree</h3><a href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy on Zepto <span>↗</span></a></div></article>
+          <article class="product-card pink-card"><a class="card-link" href="https://www.zeptonow.com/" target="_blank" rel="noopener" aria-label="Buy Red Bull Pink Edition on Zepto"></a><div class="can-mock pink">Red Bull<br /><em>PEACH</em></div><div><h3>The Pink<br />Edition</h3><a href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy on Zepto <span>↗</span></a></div></article>
+          <article class="product-card yellow-card"><a class="card-link" href="https://www.zeptonow.com/" target="_blank" rel="noopener" aria-label="Buy Red Bull Yellow Edition on Zepto"></a><div class="can-mock yellow">Red Bull<br /><em>TROPICAL</em></div><div><h3>The Yellow<br />Edition</h3><a href="https://www.zeptonow.com/" target="_blank" rel="noopener">Buy on Zepto <span>↗</span></a></div></article>
+        </div>
+        <div class="rail-controls"><button id="prev" aria-label="Previous products">←</button><span><b>01</b> / 04</span><button id="next" aria-label="Next products">→</button></div>
+      </section>
+
+      <section class="world section-pad" id="world">
+        <p class="eyebrow blue">World of Red Bull</p><h2 class="display">More to explore.</h2>
+        <div class="story-grid">
+          <article class="story large"><a class="card-link" href="https://www.redbull.com/in-en/athlete/cs-santosh" target="_blank" rel="noopener" aria-label="Explore CS Santosh"></a><img src="https://img.redbull.com/images/c_fill,f_auto,q_auto,w_2560/redbullcom/2019/12/31/cd1mtczpuhlmhrfnqhbt/cs-santosh-rally-raid-motocross-red-bull-athlete" alt="CS Santosh racing" /><div><span>Motorsports</span><h3>Always pushing the limits.</h3><a href="https://www.redbull.com/in-en/athlete/cs-santosh" target="_blank" rel="noopener">Explore <b>↗</b></a></div></article>
+          <article class="story"><a class="card-link" href="https://www.redbull.com/in-en/music" target="_blank" rel="noopener" aria-label="Explore Red Bull Music"></a><img src="https://images.unsplash.com/photo-1518604666860-9ed391f76460?auto=format&fit=crop&w=1000&q=80" alt="Festival crowd" /><div><span>Music</span><h3>Turn up the energy.</h3><a href="https://www.redbull.com/in-en/music" target="_blank" rel="noopener">Explore <b>↗</b></a></div></article>
+          <article class="story"><a class="card-link" href="https://www.redbull.com/in-en/collection/basketball" target="_blank" rel="noopener" aria-label="Explore Red Bull Basketball"></a><img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1000&q=80" alt="Basketball court" /><div><span>Basketball</span><h3>Own the court.</h3><a href="https://www.redbull.com/in-en/collection/basketball" target="_blank" rel="noopener">Explore <b>↗</b></a></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span class="brand-bulls">↔</span><span>Red Bull</span></a><span>© 2026 Red Bull clone concept</span><a href="#top">Back to top ↑</a></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

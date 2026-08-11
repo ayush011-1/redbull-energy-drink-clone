@@ -1,0 +1,13 @@
+.search-panel { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; padding: 25px; background: rgba(4,19,64,.96); opacity: 0; visibility: hidden; transition: .25s; }
+.search-panel.open { opacity: 1; visibility: visible; }
+.search-close { position: absolute; top: 18px; right: 28px; border: 0; background: transparent; color: #fff; font-size: 40px; cursor: pointer; }
+.search-form { width: min(760px,100%); color: #fff; }
+.search-form label { display: block; font: 700 clamp(38px,6vw,70px)/1 'Barlow Condensed'; text-transform: uppercase; margin-bottom: 22px; }
+.search-form div { display: flex; border-bottom: 1px solid rgba(255,255,255,.6); }
+.search-form input { width: 100%; border: 0; background: transparent; color: #fff; font: 400 24px Barlow; padding: 15px 0; outline: 0; }
+.search-form input::placeholder { color: #aeb6c5; }
+.search-form button { border: 0; background: transparent; color: #fff; text-transform: uppercase; font-weight: 700; letter-spacing: .08em; cursor: pointer; }
+.card-link { position: absolute; z-index: 2; inset: 0; }
+.product-card h3, .product-card > div:last-child { position: relative; z-index: 3; }
+.story div { z-index: 3; }
+.story .card-link { z-index: 2; }
